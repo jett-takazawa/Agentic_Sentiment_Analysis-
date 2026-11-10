@@ -7,7 +7,7 @@ library(jsonlite)
 # --- CONFIGURATION ---
 LLM_MODEL_NAME     <- "grok-4-1-fast-non-reasoning" 
 # LLM_MODEL_NAME   <- "grok-beta" # Fallback if the above ID stops working
-API_KEY_ENV_VAR    <- "xai-6lWWSzmfBr6wYeS2U0gFJpKfC4rQCgD46n4RokdNd4BbApqp8IicnyJKzETOAXmaFyyc06Ujn3EWK81F"
+API_KEY_ENV_VAR    <- "xai-NA"
 
 INPUT_CSV          <- "sentiment_analysis/all_news_final.csv"
 CHECKPOINT_RDS     <- "sentiment_analysis/all_news_with_sentiment_checkpoint.rds"
